@@ -659,14 +659,16 @@ body {
     width: 100%;
   }
   .flexxx {
+    display: block;
     width: 95%;
     padding-top: 1rem;
     padding-bottom: 1rem;
     align-items: center;
   }
   .dish {
-    width: 50%;
+    width: 70%;
     padding-top: 8%;
+    margin: auto;
   }
   .dish-img {
     width: 100%;
@@ -676,7 +678,9 @@ body {
     font-size: 12px;
   }
   .salmon {
-    width: 45%;
+    width: 75%;
+    text-align: center;
+    margin: auto;
   }
   .line {
     width: 95%;
@@ -696,7 +700,7 @@ body {
     padding-top: 0.7rem;
   }
   .sec4-div1 {
-    width: 77%;
+    width: 90%;
   }
   .category-div {
     padding-top: 1.3rem;
