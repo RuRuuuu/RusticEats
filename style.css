@@ -74,6 +74,7 @@ body {
 }
 .heading {
   font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .btn {
@@ -393,7 +394,7 @@ body {
     font-size: 1.8rem;
   }
   .blocky {
-    display: block;
+    display: none;
     font-size: 1.8rem;
     margin-bottom: 1rem;
     font-weight: bolder;
@@ -402,7 +403,7 @@ body {
     font-size: 1.7rem;
     width: 70%;
     margin: auto;
-    font-weight: 500;
+    font-weight: 700;
   }
   .para1 {
     margin-top: 1rem;
@@ -494,7 +495,7 @@ body {
 
   .heading-h3 {
     margin-top: 1.2rem;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .flexxx {
     width: 85%;
@@ -542,7 +543,7 @@ body {
   }
   .category-div {
     padding-top: 2.5rem;
-    width: 80%;
+    width: 95%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -610,6 +611,9 @@ body {
     width: 100%;
     margin-top: -5rem;
   }
+  .blob {
+    height: 13rem;
+  }
   .blob-div {
     margin-top: -7rem;
 
@@ -619,7 +623,7 @@ body {
     width: 90%;
   }
   .div-shift2 {
-    margin-top: -7rem;
+    margin-top: -2.5rem;
     width: 100%;
   }
 
@@ -628,7 +632,7 @@ body {
     display: none;
   }
   .blob2 {
-    height: 14rem;
+    height: 14.2rem;
   }
   .mobile-chef {
     display: block;
@@ -643,7 +647,7 @@ body {
   .flex2 {
     margin-top: 0;
 
-    padding-top: 5rem;
+    padding-top: 4rem;
     padding-bottom: 0;
   }
 
@@ -657,6 +661,9 @@ body {
   }
   .enjoyable {
     width: 100%;
+
+    font-size: 26px;
+    font-weight: bolder;
   }
   .flexxx {
     display: block;
@@ -675,7 +682,7 @@ body {
     margin: auto;
   }
   .dish-para {
-    font-size: 12px;
+    font-size: 14px;
   }
   .salmon {
     width: 75%;
@@ -709,7 +716,7 @@ body {
   /*footer*/
 
   .footer-div1 {
-    height: 10.5rem;
+    height: 11rem;
   }
   .footer-div-heading {
     width: 100%;
@@ -730,21 +737,13 @@ body {
   }
   .div3 {
     display: block;
+    width: 60%;
+    margin: auto;
+  }
 
-    width: 70%;
-    margin: auto;
-    text-align: center;
-  }
-  .foot {
-    padding-bottom: 1rem;
-  }
   .div2-div1 {
-    width: 100%;
+    width: 40%;
+    padding-left: 0;
     margin: auto;
-    padding-top: 0.5rem;
-  }
-  .footer-div2 {
-    display: block;
-    width: 100%;
   }
 }
