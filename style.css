@@ -339,7 +339,7 @@ body {
 }
 .div2-div3 {
   width: 40%;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 /*large screen*/
 
@@ -726,6 +726,25 @@ body {
     width: 95%;
   }
   .div2-div3 {
-    margin-top: 1rem;
+    margin-top: 0.7rem;
+  }
+  .div3 {
+    display: block;
+
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  .foot {
+    padding-bottom: 1rem;
+  }
+  .div2-div1 {
+    width: 100%;
+    margin: auto;
+    padding-top: 0.5rem;
+  }
+  .footer-div2 {
+    display: block;
+    width: 100%;
   }
 }
