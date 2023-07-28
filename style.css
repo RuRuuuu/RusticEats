@@ -64,12 +64,15 @@ body {
   color: white;
   text-align: start;
   position: relative;
-  padding-top: 9rem;
+  /* padding-top: 9rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .div-shift {
-  margin-left: 6.5rem;
+  margin-left: 7rem;
   width: 100%;
-
   margin-top: 3rem;
 }
 .heading {
@@ -110,13 +113,13 @@ body {
 }
 
 .div-shift2 {
-  margin-left: -4rem;
-  margin-top: -1rem;
+  margin-left: -6rem;
+  margin-top: 1rem;
 }
 
 .enjoyable {
   font-size: 1.6rem;
-  width: 70%;
+  width: 100%;
   font-weight: bolder;
 }
 
@@ -149,7 +152,7 @@ body {
 .flex2 {
   display: flex;
   width: 100%;
-  margin-top: 23rem;
+  margin-top: 20rem;
 }
 
 .blob2 {
@@ -211,7 +214,7 @@ body {
   align-items: center;
 }
 .sec3-div1 {
-  width: 40%;
+  width: 45%;
   padding-left: 4rem;
 }
 .sec3-div2 {
@@ -242,17 +245,22 @@ body {
 
 .section4 {
   display: flex;
-  padding-left: 5rem;
-  padding-right: 4rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
   justify-content: space-between;
   padding-top: 6rem;
   padding-bottom: 7rem;
 }
 .sec4-div1 {
   width: 53%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .sec4-div2 {
-  width: 40%;
+  width: 41%;
+
   margin-top: 1.5rem;
 }
 .fam {
