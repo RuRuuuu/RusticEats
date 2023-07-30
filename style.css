@@ -867,7 +867,8 @@ body {
     padding-top: 2rem;
   }
   .footer-h1 {
-    font-size: 24px;
+    font-size: 22px;
+    width: 100%;
   }
 
   .footer-btn {
