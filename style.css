@@ -901,4 +901,7 @@ body {
   .people {
     font-size: 14px;
   }
+  .span-date {
+    font-size: 12px;
+  }
 }
