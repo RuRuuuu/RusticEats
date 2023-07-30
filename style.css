@@ -864,13 +864,14 @@ body {
   }
   .footer-div-heading {
     width: 100%;
-    padding-top: 2.2rem;
+    padding-top: 2rem;
   }
   .footer-h1 {
     font-size: 24px;
   }
-  .footer-btn-div {
-    padding-top: 0.1rem;
+
+  .footer-btn {
+    margin-top: -0.1rem;
   }
   .heading {
     font-size: 24px;
