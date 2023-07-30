@@ -280,6 +280,10 @@ body {
   margin-top: 0.4rem;
   font-size: 0.75rem;
   font-weight: 800;
+  cursor: pointer;
+}
+.greyy {
+  color: grey;
 }
 
 /*footer*/
@@ -349,13 +353,136 @@ body {
   width: 40%;
   font-size: 0.8rem;
 }
-/*large screen*/
 
-/* @media (min-width: 1024px) {
-  .tablet-chef {
-    display: none;
+/*book section*/
+.book-background {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.395);
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.075);
+  /* background-color: rgba(0, 0, 0, 0.183); */
+  backdrop-filter: blur(0.4rem);
+  -webkit-backdrop-filter: blur(0.3rem);
+  display: none;
+}
+.form-div {
+  width: 50%;
+  background-color: white;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  box-shadow: 2px 6px 7px rgba(0, 0, 0, 0.183);
+}
+.firstinput-div {
+  width: 85%;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.first-input {
+  width: 100%;
+  margin: auto;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  padding-left: 0.6rem;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+}
+.date-div {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+.time-div {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  padding-top: 0.5rem;
+  justify-content: space-between;
+}
+.span-date {
+  width: 30%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.input-small {
+  /* margin-left: 0.5rem; */
+  width: 20%;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  padding-left: 1rem;
+  padding-bottom: 0.3rem;
+  outline: none;
+}
+.people-div {
+  width: 85%;
+  margin: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.people {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  padding-bottom: 0.3rem;
+  padding-top: 0.3rem;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.book-btn-div {
+  width: 85%;
+  padding-bottom: 1rem;
+  margin: auto;
+}
+.btn-book {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+.cancel {
+  width: 100%;
+
+  margin-bottom: -1rem;
+  text-align: end;
+  padding-right: 1.2rem;
+}
+.cancel-btn {
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+}
+
+/* animation for the bookinf form*/
+.animatee {
+  animation: moveUp 0.4s 1s ease-out;
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 1;
   }
-} */
+  100% {
+    opacity: 0;
+  }
+}
 
 /*media query for tablet*/
 @media (max-width: 769px) {
@@ -594,6 +721,11 @@ body {
   .blob2 {
     height: 13rem;
   }
+
+  /*book section*/
+  .form-div {
+    width: 75%;
+  }
 }
 
 /* mobile*/
@@ -738,7 +870,7 @@ body {
     font-size: 24px;
   }
   .footer-btn-div {
-    padding-top: 1rem;
+    padding-top: 0.1rem;
   }
   .heading {
     font-size: 24px;
@@ -757,5 +889,14 @@ body {
     width: 40%;
     padding-left: 0;
     margin: auto;
+  }
+  /*section book*/
+  .form-div {
+    width: 90%;
+  }
+  .input-small,
+  .first-input,
+  .people {
+    font-size: 14px;
   }
 }
