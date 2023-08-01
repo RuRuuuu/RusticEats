@@ -100,7 +100,7 @@ body {
   background-color: rgba(128, 128, 128, 0.182);
   border-top-right-radius: 5rem;
   width: 65%;
-  height: 16rem;
+  height: 16.5rem;
 }
 .blob-div {
   display: flex;
@@ -161,7 +161,7 @@ body {
   background-color: rgba(128, 128, 128, 0.184);
   border-top-left-radius: 5rem;
   width: 65%;
-  height: 15rem;
+  height: 15.5rem;
 }
 .div-flex2 {
   width: 35%;
@@ -580,10 +580,10 @@ body {
   }
   .enjoyable-div {
     width: 60%;
-    margin-top: 0;
+    margin-top: 2.3rem;
     position: absolute;
-    left: 17.5%;
-    text-align: start;
+    left: 21%;
+    text-align: end;
   }
   .sec2-div {
     width: 70%;
@@ -592,7 +592,7 @@ body {
   .div-shift2 {
     margin-left: 0;
     margin-right: 0;
-    margin-top: -4rem;
+    margin-top: -3rem;
     text-align: start;
   }
   .enjoyable {
@@ -605,7 +605,7 @@ body {
   .tablet-chef {
     width: 80%;
     left: 10%;
-    top: 43%;
+    top: 44%;
     display: block;
   }
   .flex2 {
@@ -817,7 +817,7 @@ body {
     font-weight: bolder;
   }
   .locally {
-    text-align: center;
+    text-align: end;
   }
   .flexxx {
     display: block;
