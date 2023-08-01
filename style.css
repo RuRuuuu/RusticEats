@@ -222,9 +222,6 @@ body {
 .sec3-div1 {
   width: 45%;
   padding-left: 4rem;
-
-  opacity: 0;
-  transition: opacity 2.5s;
 }
 .sec3-div2 {
   width: 55%;

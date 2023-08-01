@@ -108,20 +108,10 @@ $(window).scroll(function () {
 
 $(window).scroll(function () {
   var scrollPosition = $(this).scrollTop();
-  var sectionOffset = $(".sec3-div1").offset().top;
-  var windowHeight = $(window).height();
-
-  if (scrollPosition > sectionOffset - windowHeight + 240) {
-    $(".sec3-div1").css("opacity", "1");
-  }
-});
-
-$(window).scroll(function () {
-  var scrollPosition = $(this).scrollTop();
   var sectionOffset = $(".div-fam").offset().top;
   var windowHeight = $(window).height();
 
-  if (scrollPosition > sectionOffset - windowHeight + 360) {
+  if (scrollPosition > sectionOffset - windowHeight + 330) {
     $(".div-fam").css("opacity", "1");
   }
 });
