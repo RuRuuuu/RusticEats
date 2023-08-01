@@ -115,6 +115,8 @@ body {
 .div-shift2 {
   margin-left: -6rem;
   margin-top: 1rem;
+  opacity: 0;
+  transition: opacity 1.8s;
 }
 
 .enjoyable {
@@ -170,6 +172,10 @@ body {
   left: 5%;
   margin-top: -3rem;
   width: 40%;
+
+  text-align: start;
+  opacity: 0;
+  transition: opacity 2.5s;
 }
 .tablet-chef {
   display: none;
@@ -216,6 +222,9 @@ body {
 .sec3-div1 {
   width: 45%;
   padding-left: 4rem;
+
+  opacity: 0;
+  transition: opacity 2.5s;
 }
 .sec3-div2 {
   width: 55%;
@@ -469,6 +478,10 @@ body {
   border: none;
   background-color: white;
 }
+.div-fam {
+  opacity: 0;
+  transition: opacity 2.5s;
+}
 
 /* animation for the bookinf form*/
 .animatee {
@@ -572,7 +585,8 @@ body {
     width: 60%;
     margin-top: 0;
     position: absolute;
-    left: 17%;
+    left: 17.5%;
+    text-align: start;
   }
   .sec2-div {
     width: 70%;
@@ -582,7 +596,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     margin-top: -4rem;
-    text-align: center;
+    text-align: start;
   }
   .enjoyable {
     margin: auto;
@@ -684,7 +698,7 @@ body {
   }
   .btn-div {
     width: 80%;
-    padding-top: 1rem;
+    padding-top: 0.3rem;
     margin: auto;
   }
   /*footer*/
@@ -764,7 +778,7 @@ body {
   }
   .div-shift2 {
     margin-top: -2.5rem;
-    width: 100%;
+    width: 90%;
   }
 
   /*section chef*/
@@ -847,7 +861,7 @@ body {
     width: 85%;
   }
   .btn-div {
-    padding-top: 0.7rem;
+    padding-top: 0.3rem; /*redo .8rem*/
   }
   .sec4-div1 {
     width: 90%;

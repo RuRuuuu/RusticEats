@@ -80,3 +80,48 @@ $(".category-para").click(function () {
   // Add the 'clickedButton' class to the clicked button
   $(this).addClass("greyy");
 });
+
+//scroll animation functionality
+//
+
+//text fadeIn functionality
+
+$(window).scroll(function () {
+  var scrollPosition = $(this).scrollTop();
+  var sectionOffset = $(".div-shift2").offset().top;
+  var windowHeight = $(window).height();
+
+  if (scrollPosition > sectionOffset - windowHeight + 100) {
+    $(".div-shift2").css("opacity", "1");
+  }
+});
+
+$(window).scroll(function () {
+  var scrollPosition = $(this).scrollTop();
+  var sectionOffset = $(".enjoyable-div").offset().top;
+  var windowHeight = $(window).height();
+
+  if (scrollPosition > sectionOffset - windowHeight + 200) {
+    $(".enjoyable-div").css("opacity", "1");
+  }
+});
+
+$(window).scroll(function () {
+  var scrollPosition = $(this).scrollTop();
+  var sectionOffset = $(".sec3-div1").offset().top;
+  var windowHeight = $(window).height();
+
+  if (scrollPosition > sectionOffset - windowHeight + 240) {
+    $(".sec3-div1").css("opacity", "1");
+  }
+});
+
+$(window).scroll(function () {
+  var scrollPosition = $(this).scrollTop();
+  var sectionOffset = $(".div-fam").offset().top;
+  var windowHeight = $(window).height();
+
+  if (scrollPosition > sectionOffset - windowHeight + 360) {
+    $(".div-fam").css("opacity", "1");
+  }
+});
